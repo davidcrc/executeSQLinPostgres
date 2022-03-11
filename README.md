@@ -1,5 +1,6 @@
 ## Execute sql script in postgres DB
 
+- npm install pg
 - Copy env.example to .env
 
 ## Execute
