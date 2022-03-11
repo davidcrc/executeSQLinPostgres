@@ -1,9 +1,6 @@
 const { pool } = require("./connect");
 const fs = require('fs')
 
-
-
-
 async function runInDB() {
 
   const files = process.argv.slice(2);
@@ -17,12 +14,10 @@ async function runInDB() {
 
     } catch (err) {
       console.log(err.stack);
-
     }
   })
 
   pool.end();
-
 
 }
 
