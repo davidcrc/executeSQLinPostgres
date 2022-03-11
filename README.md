@@ -1,10 +1,14 @@
 ## Execute sql script in postgres DB
 
+- Copy env.example to .env
+
 ## Execute
 
 ```bash
 node run.js script.sql
 ```
+
+## Just some examples
 
 ### Example 1
 
